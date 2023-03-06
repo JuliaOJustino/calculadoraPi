@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&display=swap');
+
+
+h1 {
+    font-size: 18pt;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 30pt;
+}
+
+span {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18pt;
+}
+
+body {
+    background-image: url("fundoCalculadora.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    overflow-y: hidden;
+}
+
+section.prin {
+    width: 30vw;
+    height: 46vw;
+    background-color: white;
+    border-radius: 0px 30px 30px 0px;
+    margin: -1% 0% 0% -1%;
+    display: flex;
+
+}
+
+div.form {
+    margin: 0% 10% 0% 0%;
+    padding: 5%;
+}
+
+input {
+    width: 25vw;
+    height: 5vh;
+    border-radius: 25px;
+    border: 1px solid #E8E8E8;
+    margin-bottom: 8%;
+    box-shadow: 0px 4px 4px #A4B5C5;
+}
+
+.buttonForm {
+    width: 25vw;
+    height: 8vh;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid #003883;
+    background-color: #003883;
+    margin-bottom: 8%;
+    box-shadow: 0px 4px 4px #555454;
+}
+
+.detalheBolinha {
+    width: 10vw;
+    height: 18vh;
+    background-color: #012E40;
+    border-radius: 100%;
+    margin-left: 90%;
+}
+
+div.resultado {
+    width: 60%;
+    height: 75%;
+    margin: -160% 0px 0px 220%;
+    float: left;
+    padding: 0% 85% 0% 10%;
+    border-radius: 10px;
+}
