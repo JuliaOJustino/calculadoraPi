@@ -2,12 +2,15 @@
 
 
 h1 {
-    font-size: 18pt;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     font-size: 30pt;
 }
-
+p{
+    font-size: 14pt;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
 span {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18pt;
@@ -64,11 +67,12 @@ input {
     margin-left: 90%;
 }
 
-div.resultado {
+div.div_resultado {
     width: 60%;
     height: 75%;
     margin: -160% 0px 0px 220%;
     float: left;
     padding: 0% 85% 0% 10%;
     border-radius: 10px;
+    color: white;
 }
