@@ -4,7 +4,7 @@
 h1 {
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
-    font-size: 30pt;
+    font-size: 50pt;
 }
 p{
     font-size: 14pt;
@@ -22,6 +22,13 @@ body {
     background-size: cover;
     display: flex;
     overflow-y: hidden;
+}
+.botaoInfo{
+    border-radius: 15px;
+    background-color: #0361dda6;
+    color: #ffffff;
+    border: 1px solid #0361dda6;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 section.prin {
